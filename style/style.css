@@ -1,0 +1,30 @@
+body {
+    min-width: 375px;
+    /*
+        small = 320px
+        medium = 375px
+        large = 475px
+    */    
+}
+
+.container-fluid, .container {
+    max-width: 640px;
+}
+
+
+header, footer {
+    background-color: #061e3a;
+}
+
+header a, a.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover, a.nav-link:hover {
+    color: yellowgreen;
+}
+
+header a#title-date {
+    color: yellowgreen;
+}
